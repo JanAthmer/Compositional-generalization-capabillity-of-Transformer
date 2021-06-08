@@ -7,7 +7,7 @@ parser = argparse.ArgumentParser()
 # Training data
 parser.add_argument('--split',
                     choices = ['simple_scan','addjump_scan','simple_nacs','addjump_nacs',
-                     'addleft_scan', 'addleft_nacs'],
+                     'addleft_scan', 'addleft_nacs', 'length_scan', 'length_nacs'],
                     help='SCAN split to use for training and testing')
 parser.add_argument('--num_runs', type=int, default=1,
                     help='Number of runs to do.')
