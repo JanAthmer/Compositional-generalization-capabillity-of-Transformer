@@ -29,7 +29,7 @@ parser.add_argument('--num_decoder_layers', type=int, default=2,
                     help='Number of layers in transformer decoder')
 parser.add_argument('--dim_feedforward', type=int, default=20,
                     help='Dimension of feedforward layers in transformer')
-parser.add_argument('--dropout', type=float, default=0.1,
+parser.add_argument('--dropout', type=float, default=0.08,
                     help='Dropout rate')
 parser.add_argument('--load_weights_from', default=None,
                     help='Path to saved weights')
