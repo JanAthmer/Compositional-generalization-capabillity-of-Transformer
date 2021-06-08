@@ -89,7 +89,7 @@ def train(run,args):
             # Checkpoint on test data
             print("Checking test accuracy...")
             test_acc = test(test_data, model, pad_idx, device, args)
-            #print("Test accuracy is ", test_acc)
+            print("Test accuracy is ", test_acc)
             test_accs.append(test_acc)
 
             # Write stats file
