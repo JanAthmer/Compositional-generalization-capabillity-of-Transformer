@@ -24,6 +24,10 @@ def build_scan(split, batch_size, device):
         path = 'data/scan/length/'
     elif split == 'length_nacs':
         path = 'data/nacs/length/'
+    elif split == 'addleft_removedleft_scan':
+        path = 'data/scan/addleft_removedleft/'
+    elif split == 'addleft_removedleft_nacs':
+        path = 'data/nacs/addleft_removedleft/'
     else:
         assert split not in ['simple_scan','addjump_scan',
         'simple_nacs','addjump_nacs', 'addleft_scan', 'length_nacs', 'length_scan'], "Unknown split"
