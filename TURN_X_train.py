@@ -6,6 +6,6 @@ def main():
             if line.strip("\n") != "IN: turn left OUT: I_TURN_LEFT":
                 f.write(line)
             else:
-                 f.write("IN: turn x OUT: I_TURN_X \n")
+                 f.write("IN: churn y OUT: I_CHURN_Y \n")
     print("completed")
 main()
