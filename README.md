@@ -1,4 +1,4 @@
-# Transformers and systematicity 
+# Compositional generalization capability of Transformer
 
 This project is part of of my bachelor thesis for University of Utrecht. 
 
